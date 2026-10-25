@@ -1,0 +1,305 @@
+/* Fuentes mejoradas */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Lora:wght@400;700&family=JetBrains+Mono&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'EB Garamond', serif; 
+    line-height: 1.25;
+    font-size: 1.2em;
+    color: #131313;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.negrita {
+    font-weight: bold;
+  }
+/* Contenedor principal */
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+    color: #272727;
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 2.4em;
+    border-bottom: 2px solid #0e1a5d;
+    font-weight: 600;
+    color: #0e1a5d;
+    padding-bottom: 10px;
+    text-align: center;
+}
+h2 {
+    font-size: 1.3em;
+    color: #0e1a5d;
+    font-weight: 600;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+    text-align: center;
+}
+h3 {
+    font-size: 1.1em;
+}
+h4 {
+    font-size: 1em;
+}
+h5 {
+    font-size: 0.9em;
+}
+h6 {
+    font-size: 0.8em;
+}
+
+/* Párrafos y texto */
+p {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    text-align: justify;
+    hyphens: auto;
+}
+
+/* Portada */
+.portada {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.logo-portada {
+    max-width: 150px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.info-estudiante {
+    margin-top: 40px;
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+.fecha {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+/* Código */
+.codigo {
+    background: #c7c7c7;
+    border-left: 4px solid #475057;
+    padding: 15px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7em;
+    line-height: 1.5;
+    border-radius: 0 4px 4px 0;
+    margin: 20px 0;
+    overflow-x: auto;
+    page-break-inside: avoid;
+}
+/* Descripción de código (para bloques <pre class="codigo">) */
+.descripcion-codigo {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7em;
+    color: #555;
+    margin-top: -15px;       /* Reduce espacio superior para unir visualmente con el bloque de código */
+    margin-bottom: 20px;     /* Espacio inferior estándar */
+    padding: 8px 15px;
+    background-color: #f8f8f8;
+    border-left: 3px solid #d0d0d0;
+    border-radius: 0 0 4px 4px;
+    text-align: left;
+    hyphens: auto;
+}
+
+/* Imágenes */
+
+.img-content {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transform: scale(0.6); /* Escala la imagen */
+    transform-origin: center;
+}
+
+/*  LISTAS */
+.lista {
+    padding-left: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.lista li {
+    list-style-type: disc;
+    margin-bottom: 0.3em;
+    text-align: justify;
+}
+
+
+
+
+
+/* Contenedor principal centrado 
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sistema de columnas dinámico */
+.contenedor-columnas {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    margin: 25px 0;
+    border-collapse: collapse;
+    /*border-spacing: 10px; /* Espacio entre columnas */
+}
+
+.fila-columnas {
+    display: table-row;
+}
+
+
+.columna {
+    display: table-cell;
+    vertical-align: top;
+    padding: 2%;
+    text-align: left;
+    position: relative;
+    box-sizing: border-box
+}
+.columna + .columna {
+    border-left: 1px solid #e2e2e2; /* Línea izquierda para todas las columnas excepto la primera */
+}
+.columna-2 {
+    width: 46%;
+}
+.columna-3 {
+    width: 29.33%;
+}
+/* Ajustes de márgenes */
+.columna:first-child {
+    padding-left: 0;
+    padding-right: 4%;
+}
+
+.columna:last-child {
+    padding-right: 0;
+    padding-left: 4%;
+}
+
+/* imagenes o algo asi
+.columna-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+*/
+/*
+:root {
+    --factor-tamano-formulas: 0.4; /* Controla aquí el tamaño (0.1 a 1) 
+}
+*/
+/*Formulas*/
+.img-formula {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    transform: scale(0.8); /* Escala la imagen */
+    transform-origin: center; /* Punto de origen de la transformación */
+    image-rendering: -webkit-optimize-contrast; /* Mejor calidad al escalar
+    image-rendering: crisp-edges;*/
+}
+
+/*
+.img-formula {
+    display: inline;
+    height: 0.8em;  /* Tamaño fijo 
+    width: auto;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}*/
+
+/*
+.img-formula {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;  /* Altura automática según contenido 
+    max-height: 1.2em; /* Límite máximo de altura 
+    width: auto; /* Anchura proporcional a la altura
+    margin: 0 0.15em;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05));
+}
+*/
+/*
+p .img-formula {
+    --factor-tamano-formulas: 0.5;
+}
+  
+  /* Fórmulas más grandes en títulos */
+  /*
+h2 .img-formula {
+    --factor-tamano-formulas: 0.9;
+}
+  
+/* Fórmulas en columnas */
+/*
+.columna .img-formula {
+    --factor-tamano-formulas: 0.8;
+}
+/*Formulas
+.img-formula {
+    display: block;
+    margin: 0.8rem auto;
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
+}
+*/
+
+.pie-imagen {
+    font-size: 0.85em;
+    text-align: center;
+    color: #7f8c8d;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+/* Secciones */
+/*.seccion {
+    margin-bottom: 40px;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+*/
+
+
+/* Footer */
+/*footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    color: #7f8c8d;
+    font-size: 0.9em;
+    border-top: 1px solid #eee;
+}*/
+

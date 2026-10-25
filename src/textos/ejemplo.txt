@@ -1,0 +1,618 @@
+ 1INCERTIDUMBRE EN LAS MEDIDAS 
+ La medida; medidas directas e indirectas 
+Las ciencias experimentales y, en conc reto, la Física basan sus estudios en 
+observaciones cuantitativas de las canti dades (volumen, densidad, temperatura, 
+resistencia eléctrica, etc.) que caracterizan la s propiedades de los cuerpos. En cualquier 
+fenómeno físico se producen cambios en al gunas de dichas cantidades y se trata de 
+establecer una relación entre ellas:  la ley descriptiva del fenómeno. 
+La determinación cuantitativa de una canti dad implica siempre la comparación con un 
+patrón de referencia al que denominamos unida d. La medida de cualquier cantidad es el 
+resultado de dicha comparación y, por tanto, su  descripción requiere de dos elementos:  
+- un valor numérico que indica la razón entre cantidad y unidad  
+- la unidad utilizada 
+El valor numérico, por si sólo, no indica nada ya que depende de la unidad que se haya 
+empleado en la comparación. Por tanto, no debe  olvidarse especificar los dos elementos 
+que caracterizan una medida: 
+medida de una cantidad = val or numérico + unidad utilizada 
+De hecho, la medida de una misma cantida d vendrá expresada por valores numéricos 
+diferentes si utilizamos distintas unidades. Ej.: la longitud de un alambre es l = 0,5 m ó 
+bien l = 50 cm. 
+El proceso de medida de las cantidades  requiere de un conjunto de operaciones 
+experimentales más o menos complejas y podemos distinguir dos situaciones: 
+a) medidas directas : la medida se realiza por compar ación directa de la cantidad con el 
+patrón elegido. En la escala del instrumento utilizado leemos el valor que mide la 
+cantidad. Ej.: la longitud de un objeto medida con una regla graduada, o la diferencia de 
+potencial entre dos puntos medida con un voltímetro de escala. 
+b) medidas indirectas : En muchas ocasiones no es posib le una medida directa de la 
+cantidad y el proceso de medida requiere la medida de otras cantidades relacionadas con 
+ella y la posterior utilizaci ón de alguna relación matemáti ca que permita determinar su 
+valor. Ej.: en la determinación de la dens idad de un objeto se miden su masa y su 
+volumen y se aplica la relación mρ=V. 
+ 
+Incertidumbre en la medida; tipos de errores 
+La medida nunca permite obtener el valo r “verdadero” de una cantidad. El valor 
+numérico que resulta del proceso de medida  no es un número exacto sino que adolece, 
+inevitablemente, de cierta incertidumbre (indeterminación, imprecisión o error ). 
+Al no ser posible conocer el valor verdadero o real de la cantidad, lo que hacemos al 
+medir es acotar el valor de la cantidad en un intervalo  dado, denominado margen de 
+incertidumbre o error. 
+Al expresar el resultado de  la medida de una cantidad hay que añadir, por tanto, un 
+tercer elemento, al que denominamos error, que indica una estimación de la incertidumbre de la medida: 
+toda medida (resultado experimental)  debe ir 
+acompañada del valor estimado del error y, a continuación, la unidad empleada: 
+medida de una cantidad = valor numérico + error + unidad utilizada  2y, en una buena medida, el error debe  ser pequeño en comparación con el valor 
+numérico. 
+Vemos, pues, que en Física “error” no es sinónimo de “equivocación” o “falta” sino que 
+refleja la inevitable incertidumbre de las medidas, que no puede eliminarse totalmente aún cuando puede minimizarse optim izando el proceso de medida. 
+La estimación de errores es importante no sólo en Física sino también en cualquier 
+tecnología y juega un papel central en el de nominado control de calidad, que se extiende 
+a actividades industriales tan comunes como  la manufactura de muebles o de ropa. 
+Es necesario, por tanto, encontrar un método para estimar la “fiabilidad” del resultado 
+obtenido, haciendo una estim ación razonable del error; es decir, fijar el margen de 
+incertidumbre de las medidas para poder utiliz ar los resultados con prudencia y obtener 
+conclusiones significativas a partir de ello s, ya que un error grande puede limitar la 
+utilidad de un resultado para ciertos fines.  
+Entre los posibles errores que afectan a las medidas suelen distinguirse: 
+- errores sistemáticos : se deben a factores que actúa n siempre de la misma forma, 
+afectando a los resultados  en el mismo sentido. Por ello  no son fáciles de detectar, ya 
+que sus efectos son reproducib les al repetir la medida. Sus causas son instrumentos 
+defectuosos o mal utilizados, método de medida  inadecuado, uso de patrones no fiables, 
+etc. y también pueden provenir de alguna in consistencia matemá tica (equivocaciones en 
+cálculos, aproximaciones indebidas, etc.). Estos errores se detectan (y corrigen) 
+repitiendo la medida con diferentes equipos o repitiendo el cálculo.  
+En toda medida siempre es posible reducir la indeterm inación utilizando 
+instrumentación de mejor calidad o mejorando el procedimiento seguido; sin embargo, 
+esas mejoras suelen suponer un aumento del coste económico y del tiempo utilizado, por lo que habrá que establecer, en cada caso, un compromiso en términos de la incertidumbre tolerable. 
+- errores accidentales o aleatorios : son incertidumbres  provenientes de causas diversas 
+e imprevisibles que hacen que, al repetir una medida en condiciones idénticas, se 
+obtengan diferentes resultados. Estos errores suelen deberse al azar, de ahí el nombre de 
+aleatorios, y se analizan por métodos estadísticos. Sólo se pueden eliminar parcialmente 
+repitiendo las medidas o aumentando el tiem po de observación (número de cuentas) 
+Es lógico pensar que la repetición de una  medida puede disminuir la incertidumbre 
+debida a los errores aleatorios ya que, en principio, existe la misma probabilidad de 
+obtener en la medida un valor mayor o menor que el verdadero valo r de la cantidad, por 
+lo que un promedio de los diferentes valore s obtenidos sería una mejor aproximación al 
+valor verdadero. Siendo esto cierto, veremo s que el efecto benefici oso de la repetición 
+de medidas tiene también sus limitaciones.  
+En resumen, toda medida es inexacta y ha de estimarse su incertidumbre. Mientras que 
+las incertidumbres debidas a errores si stemáticos deben ser evaluadas por el 
+experimentador y están sujeta s, por tanto, a cierta subjetividad, las originadas por 
+errores aleatorios pueden estimarse objetiv amente mediante métodos estadísticos. 
+ 
+Precisión y exactitud de una medida 
+Resulta importante distingui r entre precisión y exactitud. 
+La precisión  de un resultado es una indica ción de su reproducibilidad , 
+independientemente de lo cerc a que se encuentre del valor “verdadero”. Al “error” 
+asociado se le denomina incertidumbre  de un resultado.  3La exactitud  es una indicación  de lo correcta que es, de su proximidad al valor 
+“verdadero”  de la cantidad. 
+La precisión es una medida de los errores alea torios. Si se reducen los errores aleatorios, 
+el resultado será más reproducible y su precisi ón será mayor: la medida es más precisa. 
+El objetivo de cualquier invest igador o de cada laboratorio por separado debe ser, por 
+tanto, reducir los errores aleatorios para  aumentar la precisión de sus medidas. 
+Los errores sistemáticos afectan  directamente a la exactitud de la medida, por lo que si 
+se evitan o reducen el resultado será má s creíble: más exacto.  El objetivo de las 
+comparaciones de los resultados de un experime nto realizado en diferentes laboratorios, 
+en las mismas condiciones y utilizando estándares definidos, es incrementa r la exactitud 
+del resultado. 
+Para la eliminación o reducción de los errores sistemáticos es importante disponer de 
+datos con pequeños errores aleatorios, que posean una precisión relativamente elevada, 
+aunque si los errores sistemáticos son grande s, puede ser una pérdida de tiempo invertir 
+mucho esfuerzo en incrementar la precisión.   
+Error absoluto y error relativo 
+Como ya se ha indicado, el resultado de una medida no es exacto por lo que, al expresar 
+el resultado de la medida de  una cantidad, es necesario in dicar, junto al valor numérico 
+obtenido en la medida, la incertidumbre as ociada a ese valor. Para expresar esa 
+incertidumbre podemos utilizar  diferentes indicadores. 
+Error absoluto : suele definirse como la diferenc ia entre el valor aproximado que 
+resulta de una medida y el valor verdader o o real de la cantid ad que se mide. Sin 
+embargo, esta definición ignora que no pode mos conocer el valor verdadero de una 
+cantidad: por buena que sea una medida, sólo podemos confiar en que su resultado sea 
+muy próximo al valor verdadero, pero el  valor verdadero no puede conocerse. La 
+definición indicada no es, por  tanto, adecuada y ha de hacerse más rigurosa. 
+El experimentador que mide una cantidad y asigna una incertidumbre a la medida cree 
+que el valor verdadero de la cantidad se encuentra entre dos valores x 1 y x 2 y no tiene 
+razones para pensar que el valo r verdadero esté más próximo a x 1 que a x 2, por lo que se 
+acepta como valor medido 12x+ xx=2  y como indicación de  la incertidumbre se 
+toma la mitad del valor absoluto de la diferencia de los límites: 12x- x
+x2δ=  
+Suele escribirse: 
+valor medido = x ± δx 
+para indicar que el valor verdader o está acotado en el intervalo: 
+x - δx  <   valor verdadero  <  x + δx 
+La magnitud expresada por δx  es de la misma clase que la magnitud medida y se refiere 
+a la misma unidad y, por definición , es siempre positivo. Al error δx así definido le 
+denominamos  error absoluto.  
+En las medidas de calidad δx debe ser mucho menor que x: δx << x,  ya que si el error 
+es comparable al valor medido, la medida tiene escasa confianza.  4La incertidumbre en un resultado se expresa mediante una sola cifra diferente de cero, 
+excepto en el caso en que ésta sea 1 ó 2, en cuyo caso pueden darse dos  cifras si las hay. 
+Por ejemplo: sería correcto escribir 3,108 ± 0,017, o también  343 ± 12 pero no lo sería  
+4,202 ± 0,034, sino 4,20 ± 0,03. 
+Si para la medida de la velocidad del s onido en el aire, en ciertas condiciones, 
+indicamos un valor: 
+v = 338,471 ± 0,4 m s-1 
+no sería correcto ya que, si la incertidumbre estimada es de  ± 0,4 m s-1, no tienen 
+ningún sentido los dos últimos dígitos en el  valor indicado y de beríamos escribir: 
+v = 338,5 ± 0,4 m s-1 
+aplicando el redondeo, al ser superior a 5 la  cifra siguiente a la  última retenida. 
+Tampoco sería correcto expresar una temperatura en la forma: 
+T = 235,32 ± 0,382 K 
+sino:  
+T= 235,3 ± 0,4 K 
+En la expresión de los resu ltados experimentales suele utilizarse, en ocasiones, una 
+forma abreviada: 
+         5,160 (5)  kg           en lugar de            5,160 ± 0,005 kg 
+y      18,347 (16)  m3          en lugar de            18,347 ± 0,016 m3 
+en la que la cifra (las dos cifras, si la primer a es 1 ó 2) entre paréntesis indica(n) el error 
+absoluto en unidades del último dígito del valor.  
+Error relativo : La incertidumbre o error absoluto de una cantidad, en sí misma, no 
+indica la calidad de la medida. No es lo mi smo, por ejemplo, una incertidumbre de 1 cm 
+en la longitud de un campo de fútbol que es a misma incertidumbre en la anchura de un 
+folio. Lo que realmente indica la calidad de una medida es la incertidumbr e fraccional o 
+relativa, a la que se denomina error relativo : cociente entre el error absoluto y el valor 
+absoluto de la medida: 
+error relativo δx
+x=  
+y que, por tanto, es un número (adimensional).  
+Su valor suele ser muy pequeño y frecuenteme nte se expresa en tanto por ciento del 
+valor medido: 
+ δxerror relativo (%) 100x=  
+El error relativo resulta útil como criterio de calidad de una medida y, aunque no puede 
+darse una regla de carácter general para clas ificar las medidas en buenas y malas ya que 
+hay magnitudes de fácil medida mientras que en otras la medida es muy difícil, en medidas usuales suele considerarse: 
+                                  0,1 %          
+≤         error relativo        ≤            5 % 
+    medida precisa    medida corrien te      medida rudimentaria 
+El error relativo puede expresarse también, en ocasiones en las que es muy pequeño, en 
+tantos por mil, partes po r millón, etc., con signifi cado análogo al porcentual.  5Cifras significativas 
+Al expresar una medida, junto a la unidad utilizada, hemos de indicar el valor numérico 
+y la estimación de la incertidumbre (erro r). La forma indicada anteriormente, x ± δx, es 
+la denominada forma explícita pero hay otras maneras de hacerlo. 
+Se denominan cifras significativas las no af ectadas por el error estimado. Para un valor 
+numérico dado, el número de cifras signifi cativas es el número de dígitos, contado 
+desde la izquierda, hasta el primero afectado po r el error (inclusive); es decir, las cifras 
+significativas de una cantidad son todos los dígitos medidos con certeza, más la primera 
+cifra estimada o dígito dudoso. En dicho número no se consideran los ceros a la 
+izquierda del primer dígito dis tinto de cero, pero si los ceros situados a la derecha. El 
+número de cifras significativas no tiene, por  tanto, ninguna relaci ón con la posición de 
+la coma decimal. 
+El número de cifras significativ as de una cantidad expresa su precisión . 
+Ejemplo:    Medida    número de cifras significativas 
+2,16     3 
+0,038     2 3,0     2 0,3      1 3     1 
+3,00     3 
+     100,080   6 
+Si escribimos  x = 14,  queremos significar que el valor de x está más próximo a 14 que  
+a 13 o a 15, es decir: el valor 14, co n dos cifras signifi cativas, significa 14,0 
+± 0,5, y si 
+hubiéramos escrito 14,0, con tres cifra s significativas, querríamos indicar 14,00 ± 0,05. 
+ Esta forma implícita presenta, sin embar go, deficiencias en sus posibilidades de 
+expresar la incertidumbre.  Así, por ejemplo, 5,31 ± 0,02 podría representarse por 5,31 
+(aumentando la incertidumbre de 0,02 a 0,05) o por 5,310 (disminuyendo la 
+incertidumbre de 0,02 a 0,005) y, por ejemplo, 450 ± 5 no puede expresarse con esta 
+forma implícita.  
+El número de cifras significativas guarda ci erta relación con el  error relativo, aún 
+cuando la relación sea sólo de carácter aproximado. 
+Ej.: los valores 20 (20,0 ± 0,5)  y  0,20 (0,200 ± 0,05) tienen dos cifras significativas y 
+diferentes incertidumbres (errores absoluto s) pero ambos tienen errores relativos 
+iguales:  0,025 (2,5 %). Sin embargo, los valores  10 (10,0 ± 0,5)  y  99 (99,0 ± 0,5), que 
+también tienen dos cifras significativas tienen  errores relativos dife rentes, 5 % y 0,5 %, 
+respectivamente. 
+Puede establecerse, por tanto, una correspondencia aproximada: 
+ 
+   número de cifras         error rela tivo             estimación aproximada 
+     significativas                   (porcentual)          (promedio de error relativo)    1 5 %   a   50 % 25 %  2 0,5 %   a     5 %   2,5 %  3  0,05 %   a  0,5 %    0,25 %  6Cifras significativas del resultado de una operación 
+Cuando se opera con valores numéricos interesa conocer el número de cifras 
+significativas del resultado de la operación. Para las operaciones ar itméticas se aplican 
+los siguientes criterios: 
+- adición y sustracción : La suma o diferencia de dos medidas no debe ser más precisa 
+que la menos precisa de las medidas. Por ello , el resultado debe te ner el mismo número 
+de decimales que tenga el dato con menos decimales.  Ej.: 2,7 + 0,324 =  3,0   (y no  3,024). 
+- 
+producto y cociente: El producto o cociente de dos medidas no debe tener más cifras 
+significativas que la medida que tiene el menor número de ellas.  
+Ej.: 1,3200 x 4,80 x 0,7 = 4  (y no  4,4352) 
+- potencia y raíz: Al elevar una medida a un exponente n, o al extraer su raiz, en el 
+resultado se conservan ta ntas cifras significativas como tiene la medida . 
+- constantes : cuando interviene en una operación una constante cuyo valor sea un 
+número irracional ( π, por ejemplo) se utilizan para la constante tantas cifras 
+significativas como el dato con más cifras significativas. 
+ 
+Orden de magnitud  
+Se denomina orden de magnitud de un núme ro a la potencia de 10 más cercana a dicho 
+número. El orden de magnitud de un núme ro nos da una idea de su tamaño y nos 
+permite llevar a cabo clasificaciones con cr iterios cuantitativos y realizar cálculos 
+aproximados. Para hallar el orden de magnitud de un nú mero lo comparamos con las dos potencias 
+consecutivas de 10, inferior y superior al número, observando a cuál de ellas se 
+aproxima más. Diremos, por ejemplo, que la altura del hombr e es del orden de 1 m, para indicar que su 
+altura está más próxima a 1 m (10
+0) que a 0,1 m (10-1) ó a 10 m (101) y que la altura de 
+las montañas más altas ( ∼ 8000 m) es del orden de 104 m.  
+Podemos afirmar, entonces que la altura de las montañas más altas es cuatro órdenes de 
+magnitud mayor que la altura del hombre.  
+Notación científica   
+El manejo de valores numéricos muy gra ndes o muy pequeños que presentan ciertas 
+cantidades físicas se simplifi ca utilizando la denominada not ación científica, que utiliza 
+las potencias de 10. En esta notación, el va lor numérico se escribe como producto de un 
+número decimal que contenga una sola cifra entera (la de las uni dades), y una potencia 
+de 10 (de exponente positivo o negativo). 
+Ejemplo: Escribir en notación científica los siguientes números     Números   Notación científica    156.000.000.000.000        1,56 · 10
+14 
+    0,000000000000213        2,13 · 10–13 
+             0,00054          5,4 · 10–4 
+               15.234      1,5234 · 104 
+ 
+  7Redondeo de números  
+Al expresar el valor numérico de una cantidad deben eliminarse los dígitos que carecen 
+de sentido porque el error del dato es mayor que lo que esas cifras significan. Esto es 
+importante al operar con datos cada uno de los cuales está afectado de un error ya que, 
+al realizar las operaciones podemos acumular en  el resultado cifras superfluas que deben 
+eliminarse. La eliminación de estas cifras superfluas se denomina redondeo de números 
+y se realiza de acuerdo c on las reglas siguientes: 
+- Si la cifra que se omite es me nor que 5, simplemente se elimina . 
+- Si la cifra eliminada es superior a 5, se  aumenta en una unidad la última cifra 
+retenida . 
+- Si la cifra eliminada es 5,  puede aceptarse aumentar siempre en una unidad la 
+última cifra retenida.  
+Las dos primeras reglas son de sentido com ún, mientras que la tercera es un convenio. 
+ Ej.: Al redondear 3,678 a las centésimas que daría 3,68, mientras que al redondear 3,673 
+quedaría 3,67. Si el número a redondear es 3,675 quedaría 3,68.  
+En un número redondeado todas sus cifras son significativas, es decir, su incertidumbre 
+ha de ser media unidad de la última cifra indicada. 
+ 
+Resumiendo criterios ya citados,  la expresión correcta de un  valor experimental junto a 
+su incertidumbre o error debe verificar ciertas reglas: 
+- La última cifra significativa en el valor de una cantidad y en su error, 
+expresados en las mismas unidades, deben corresponder al mismo orden de 
+magnitud  (centenas, decenas, unidades, décimas, centésimas). 
+- Los errores se deben dar con sólo una única cifra significativa , excepto que sea 1 
+ó 2. 
+ 
+Estimación de incertidumbres en medidas directas 
+En la medida directa de una cantidad utilizam os un instrumento cuya escala permite leer 
+su valor: la longitud de un objeto con una re gla, la temperatura con un termómetro de 
+mercurio o la diferencia de potencial entr e dos puntos con un voltímetro, por ejemplo.  
+Si la escala del instrumento utilizado es lineal, el intervalo entre dos divisiones 
+contiguas es constante y la difere ncia de sus valores se denomina precisión del 
+instrumento. Si la escala no fuera lineal  la precisión sería diferente en cada zona de la 
+escala. 
+Ej.: en una regla graduada en la que el intervalo de 1 cm está divido en diez partes, el 
+intervalo entre dos divisiones contiguas es de  1 mm y, por tanto, aprecia 1 mm. Se suele 
+decir que la precisión de la regla es del milímetro. 
+Si hacemos una sola medida o si, al repe tirla, obtenemos el mismo valor, podemos 
+pensar que el valor verdadero de la cantid ad está comprendido entre las divisiones 
+anterior y posterior a la posición de l ectura y, por tanto, podemos tomar como 
+incertidumbre (error absoluto) de la medida la  mitad de la precisión del instrumento.  
+Ej.: si la lectura sobre la  regla está comprendida entr e 23 y 24 mm y la aproximamos 
+como 23,5 mm, escribiremos esa medida como 23,5 ± 0,5 mm.  8Puede suceder que al repetir la medida dire cta de una cantidad un cierto número de 
+veces se obtengan diferentes valores; por ej emplo, al medir un intervalo de tiempo entre 
+dos sucesos con un cronómetro. Se plantea ent onces el problema de elegir el “mejor” 
+valor y lo más razonable es a doptar como mejor valor de la cantidad el promedio de los 
+diferentes datos, ya que cabe pensar que tan probable es que  ocurran errore s por exceso 
+o por defecto y, al hacer la media, deben compensarse. 
+La media o valor medio  de un conjunto de medidas, x 1, x2, x3, …,x N, se define como la 
+suma de los diferentes resultados di vidida por el número de medidas: 
+N
+123 N
+i
+i=1x +x +x +...+x 1x= = xNN∑  
+expresión en la que N es el número de medidas e  i  representa el número de orden de la 
+medida x i del conjunto. 
+Aceptado el valor medio como “mejor valo r” de la cantidad, nos  queda estimar la 
+incertidumbre asociada a dicho valor y parece  adecuado que el error debe indicar la 
+dispersión de los datos respecto del valor medio. 
+La desviación  de una medida respecto al valor medi o se define como la diferencia entre 
+ese dato y la media: 
+iiδx= x- x  
+Estas desviaciones serán positivas para unos datos y negativas para otros y su valor 
+medio debería ser nulo. Por ello, para estimar la dispersión de los datos en torno al valor 
+medio, definimos la desviación media como el valor medio de los valores absolutos de 
+las desviaciones: 
+N
+i
+i=11δx= x- xN∑  
+La desviación media de un conjunto de datos no  es, sin embargo, el único índice posible 
+para indicar la dispersión de  los diferentes datos y adem ás, por razones matemáticas, no 
+resulta apropiado utilizar valores absolutos.  Por ello, para medir la dispersión de un 
+conjunto de datos se consideran los cuad rados de las desviaciones o desviaciones 
+cuadráticas. 
+La varianza de un conjunto de datos se define co mo la media de las desviaciones 
+cuadráticas: 
+N
+22
+i
+i=11σ(x) (x - x)N=∑  
+Por tanto, la varianza es la media de los cuadrados de las desvia ciones de los datos 
+respecto de la media. 
+La desviación típica o desviación estándar  s e  d e f i n e  c o m o  l a  raíz cuadrada de la 
+varianza: 
+N
+2
+i
+i=11σ(x) (x - x)N=∑  
+  9Sin embargo, cuando el número de datos N es  pequeño, la desviación estándar suele 
+definirse como: 
+N
+2
+i
+i=11σ(x) (x - x)N-1=∑  
+La justificación de utilizar N-1 en lugar de N es de índole estadí stica pero un argumento 
+plausible es que, fijados N-1 da tos, el último queda determinado por el valor medio; por 
+eso N-1 se denomina número de grados de libertad en la definición de σ. Además, si 
+hay un solo dato, resulta σ = 0/0, indeterminado, y no σ = 0, como resultaría con la 
+primera definición. 
+Si se repite muchas veces una medida, utiliz ando siempre el mismo procedimiento, cabe 
+pensar que los resultados de las medidas esta rán distribuidos en tor no al valor verdadero 
+y, como justificaremos más tarde, aproxi madamente el 68 % de los resultados tendrá 
+una desviación menor que σ del valor verdadero: 
+medida verdaderox- x < σ(x) 
+es decir, el 68 % de las medidas estarán en el intervalo  xverdadero  ± σ(x). 
+Eso quiere decir que, al hacer una sóla me dida, utilizando ese mismo procedimiento, 
+existe una probabilidad de 68 % de que el  resultado tenga una desviación del valor 
+verdadero menor que σ. Ello lleva a identificar σ(x) con el error absoluto de la medida.  
+Ej.: Si medimos varias veces la consta nte elástica de un re sorte, midiendo su 
+alargamiento al colgar de su ex tremo diferentes masas:  F = m  g = k   Δl, el valor de la 
+desviación estándar de esas medidas nos proporciona una estimación de la 
+incertidumbre en nuestro procedimiento de me dida. Si tenemos que medir otro resorte 
+similar y utilizamos el mismo procedimie nto de medida, podemo s hacer una sola 
+medida de su constante elástica y estimar que la incertidumbre es la desviación estándar  
+obtenida en la medida del primer resorte y que, por tanto, el va lor medido difiere en 
+menos de σ de su valor verdadero con un 68 % de probabilidad. 
+La desviación típica es una indicación de la incertidumbre de lo s datos, pero es 
+importante estimar la incertidumbre del valo r medio y, como se podrá justificar más 
+tarde, la varianza del valor medio  es igual a la varianza del conjunto de datos dividida 
+por el número de medidas: 
+2 N
+22 i
+i
+i=1σ(x ) 1(x) = (x - x)NN ( N - 1 )σ =∑  
+y la desviación típica o es tándar del valor medio  es: 
+N
+2 i
+i
+i=1σ(x ) 1(x) = (x - x)N( N - 1 ) Nσ = ∑  
+La desviación estándar de l valor medio, como vemo s, contiene un factor N  en el 
+denominador. Si aumentamos el númer o de medidas la desviación estándar σ(x), que 
+representa la incertidumbre de las medi das individuales, no cambia apreciablemente 
+mientras que la desviación estándar del valor medio, σ(x)
+N , disminuye al aumentar N.  10La conclusión, lógica, es que la precisión del valor obtenido para una cantidad mejora al 
+aumentar el número de medidas. Sin embargo, N  crece más lentamente que N y, por 
+tanto, para mejorar la precisión por un factor , 10 por ejemplo, habría que incrementar N 
+por un factor 100. Además, sólo estamos cons iderando los errores al eatorios; los errores 
+sistemáticos, a los que nos referiremos más ta rde, no se reducen al aumentar el número 
+de medidas. 
+ 
+Media ponderada 
+Al calcular el valor medio hemos supuesto que todos los valores considerados tenían la 
+misma incertidumbre. Puede ocurrir, sin embargo, que los valores a promediar  tengan incertidumbres diferentes; por ejemplo, podemo s tratar de promediar valores que, a su 
+vez, son el resultado de promediar sobr e diferentes conjuntos de medidas.  
+En estas situaciones, hay que aplicar a cad a valor su propia desviación estándar y la 
+media ponderada  se calcula por: 
+N
+i
+2
+i=1 i
+N
+2
+i=1 ix
+σ(x )x=1
+σ(x )∑
+∑ 
+ya que el peso de cada resultado, o factor de ponderación, es inve rsamente proporcional 
+al cuadrado de su desviación estándar. 
+La desviación estándar de la media se obtiene como: 
+N
+22
+i=1 i11=σ(x) σ(x )∑  
+es decir: 
+N
+2
+i=1 i1σ(x)
+1
+σ(x )=
+∑ 
+Como es lógico, las expresiones de la medi a ponderada y de su desviación estándar se 
+reducen a las correspondi entes a la media si la s desviaciones estándar σ(xi) son todas 
+iguales. 
+ 
+Estimación de incertidumbres en medi das indirectas: propagación de errores 
+En general, el valor de una cantidad se obtie ne indirectamente, a partir de los valores 
+experimentales de ciertas magnitudes primarias,  cada una de las cuales tiene asociada su 
+respectiva incertidumbre. 
+El valor de la cantidad buscada se obtiene a pa rtir de la ley representativa del fenómeno: 
+la ecuación que relaciona dicha cantidad con la s cantidades primarias, pero es necesario 
+conocer también la incertidumbre que afecta a la cantidad que, lógicamente, depende de 
+las incertidumbres de las cantidades primarias. 
+Consideraremos dos situaciones posibles, segú n que sólo haya una cantidad primaria o 
+que el número de cantidades pr imarias sea superior a uno. La  función que relaciona la  11cantidad buscada con las cantidades primarias será una función de una variable o de 
+varias variables, respectivamente, en ambas situaciones.  
+Función de una variable 
+Si la cantidad F depende de una sola cantidad  primaria x, cuya desviación típica es σ(x), 
+de la expresión del cálculo: 
+dFdF = dxdx 
+podemos escribir para  las desviaciones: 
+iidFδF= δxdx 
+y, recordando la definici ón de desviación estándar:  
+dFσ(F) = σ(x)dx 
+debiendo evaluarse la de rivada en el valor x : el valor de la medida de la cantidad x. 
+ 
+Función de varias variables 
+Haremos el desarrollo para el caso particular  de dos variables ya que la generalización 
+al caso de n variables resulta evidente. C onsideremos una cantidad F que depende de 
+dos cantidades primarias independientes x e y, cuyas desviaciones típicas son σ(x) y 
+σ(y), respectivamente. 
+Al ser F una función de dos variables, pode mos escribir: 
+FFdF = dx + dyxy∂ ∂
+∂∂ 
+en la que las derivadas parciales  F
+x∂
+∂  y   F
+y∂
+∂ expresan la variación en F debida a un 
+cambio en una sola de las variables, manten iendo constante la otra. Así, por ejemplo: 
+Δx0F(x+Δx,y) - F(x,y) F=l i mx Δx→∂
+∂ 
+expresa la variación de  F al variar x, mant eniendo y constante. 
+Para las desviaciones tendremos: 
+iiiFFF= x + yxyδ δδ∂ ∂
+∂∂ 
+siendo: 
+               ii i iδF=F- F=F ( x , y )- F ( x , y )  
+       iiδx= x- x  
+        iiδy= y- y  
+ 
+  12Si elevamos al cuadrado δFi : 
+2 2
+222
+iii i iFF F F(δF) = ( δx) + ( δy) +2 δxδyxy x y⎛⎞ ⎛⎞ ∂∂ ∂ ∂⎛⎞ ⎛⎞
+⎜⎟ ⎜⎟ ⎜⎟ ⎜⎟∂∂ ∂ ∂⎝⎠ ⎝⎠ ⎝⎠ ⎝⎠ 
+y sumando las expresiones para i  =1,2,…N  (N es el número de valores experimentales 
+de x e y), y dividiendo por N-1: 
+2 2N N
+222
+iii
+i=1 1 i=111 F 1 F(δF) = ( δx) + ( δy)N-1 1 x 1 yN
+i NN =⎛⎞ ∂∂⎛⎞
+⎜⎟ ⎜⎟−∂ −∂⎝⎠ ⎝⎠∑∑∑  
+ya que, al ser independientes  las variables x e y:   N
+ii
+i=1δxδy0=∑ . 
+ 
+La varianza resulta ser: 
+2 2
+22 2 FFσ() σ(x) + σ(y)xyF⎛⎞ ∂∂⎛⎞= ⎜⎟ ⎜⎟∂∂⎝⎠ ⎝⎠ 
+y la desviación estándar de F viene dada por: 
+2 2
+22 FFσ() σ(x) + σ(y)xyF⎛⎞ ∂∂⎛⎞= ⎜⎟ ⎜⎟∂∂⎝⎠ ⎝⎠ 
+Las derivadas que intervienen en las expresiones anteriores  deben evaluarse para los 
+valores medios, x e  y  de las cantidades primarias. 
+ 
+Incertidumbre en el resultado de operaciones 
+Por simple aplicación de las expresiones ante riores, pueden obtenerse  las desviaciones 
+típicas para algunas operaciones usuales. En la s expresiones siguientes, F es la cantidad 
+buscada, x e y son las cantidades primarias, a y b son coeficientes numéricos constantes. 
+ 
+Adición y sustracción de cantidades:           
+ F=x ±y 22σ(F) = σ(x) +σ(y) 
+A veces se utiliza una regla más simple, válid a para el caso en que las incertidumbres no 
+sean independientes: la incertidumbre (error absoluto) de una cantidad que es la suma o 
+diferencia de otras es la suma de los errore s absolutos de todas ellas. Esta regla, sin 
+embargo, da un valor mayor del error absoluto para la suma: δFδx+δy≤ . 
+ 
+Producto de una cantidad por una constante exacta 
+ F=a x   σ(F)σ(x)
+Fx=   
+El error relativo de F es igual al valor relativo de x y el error absoluto  de F es igual a la 
+constante por el error absoluto de x: δF=aδx.  
+ 
+  13Producto y cociente de cantidades:        
+ F= ±a x y   ó  F= ±a x/y  22
+22σ(F) σ(x)σ(y)
+Fx y=+  
+También en este caso, para incertidumbres no independientes, la incertidumbre en F 
+viene dada por una regla más simple: el erro r relativo de un producto o cociente es la 
+suma de los errores relativos de los f actores, que da un valor mayor para la 
+incertidumbre estimada:   δFδxδy+Fxy≤ .  
+ 
+Potencia de una cantidad: 
+ nF=a x  σ(F) σ(x)=nFx 
+El error relativo de F es igua l al valor absoluto del exponent e por el error relativo de la 
+cantidad x.  
+Logaritmo: 
+ F=al n ( bx )  σ(x)σ(F) = ax 
+Exponencial: 
+ F = a exp (b x)  σ(F)=bσ(x)F 
+ 
+Funciones complicadas 
+El cálculo de  F
+x∂
+∂ puede ser en ocasiones muy laborioso, especialmente cuando 
+aparecen funciones trigonométricas. En esto s casos puede utilizar se un procedimiento 
+más rápido, que evita esos cálculos engorro sos y que no es de menor rigor, dando en 
+general resultados aceptables.  Dada una función complicada: 
+F=F ( x ,y )  
+de tipo trigonométrico, por ejemplo, podemos escribir: 
+2 2
+22 2 2 2
+xyFFσ() σ(x) + σ(y)ΔF+ΔFxyF⎛⎞ ∂∂⎛⎞== ⎜⎟ ⎜⎟∂∂⎝⎠ ⎝⎠ 
+donde  ΔFx  indica el cambio en el valor de F debido al cambio σ(x) de la variable x, 
+manteniendo constante el valor de y:   
+x F =  F [ x+ σ(x), y] - F(x, y) Δ  
+y, análogamente: 
+y F =  F [ x ,y+ σ(y)] - F(x, y) Δ  
+Su cálculo es inmediato en el caso citado de  una función trigonométr ica, con sólo el uso 
+de unas tablas (o una calculadora).   14Como ejemplo vamos a utilizarlo en un cas o sencillo, para el que no sería difícil 
+calcular las derivadas. En una experienci a de determinación de índice de refracción 
+medimos un valor del ángulo de incidencia i = 30 ± 1 º y un valor del ángulo de 
+refracción r = 20 ± 1 º. El índice de re fracción viene dado por: 
+sen in=sen r          
+Para estimar la incertidumbre en el valo r del índice de refracción tendríamos que 
+calcular  2n
+i⎛⎞∂
+⎜⎟∂⎝⎠  y   2n
+r⎛⎞∂
+⎜⎟∂⎝⎠ , evaluar esas derivadas en los valores medidos de  i  y  r , 
+y calcular:  
+22
+22 nnσ(n) σ(i) + σ(r)ir⎛⎞ ⎛⎞∂∂=⎜⎟ ⎜⎟∂∂⎝⎠ ⎝⎠ 
+teniendo presente que  σ(i)  y  σ(r)  hay que expresarlas en radianes. 
+Si elegimos el procedimiento indicado, calculamos: 
+i 00sen 31º sen 30º n =  n [ i+ σ(i), r] - n(i, r) 0,0438sen 20 sen 20Δ= − =  
+r 00sen 30º sen 30º n =  n [ i ,r+ σ(r)] - n(i, r) 0,0669sen 21 sen 20Δ= − = −  
+y obtenemos: 
+22
+ir σ(n) = Δn+Δn0 , 0 8=  
+ 
+ 
+Incertidumbre debida a errores sistemáticos 
+En todo lo anterior se ha supuesto que los er rores sistemáticos se habían eliminado o, 
+más bien, se habían reducido a valores no si gnificativos, por lo que hemos tratado sólo 
+la incertidumbre debida a errores aleatorios  en la medida. Por ello, la desviación 
+estándar de una medida (o del valor medio)  debe considerarse como la componente 
+aleatoria de la incertidumbre y no como la incertidumbre total:  
+total aleat sistδx=δx+δx 
+y el problema es cómo estimar la component e sistemática de la incertidumbre y cómo 
+combinarla con la componente aleatoria para obtener la incertidumbre total. 
+Sin embargo, como se dijo, los errores sistem áticos son difíciles de identificar y, menos 
+aún, de cuantificar ya que su estimación es en  cierto modo subjetiva. Por ello, a falta de 
+una solución mejor, que requeriría más información acerca de la calidad de los 
+instrumentos utilizados, en laboratorios de  prácticas puede adoptar se el criterio de 
+atribuir una determinada incertidumbre (1 %, por  ejemplo) a los instrumentos de medida 
+(balanzas, cronómetros, voltímetros, etc.). 
+El problema es cómo proceder para estimar  la incertidumbre debida a los errores 
+sistemáticos de los diferentes instrumentos utilizados. Por ejemplo, para medir la  15constante elástica k de un resorte a partir de l período T de las oscilaciones de una bolita 
+de masa m suspendida de uno de sus extremos: 
+mT=2πk  2
+24πmk=T 
+utilizamos una balanza para determinar la masa y un cronómetro para medir el período. 
+Para estimar la incertidumbre global debida  a ambos instrumentos, podemos aplicar la 
+propagación de errores y como parece lógico suponer que los errores de la balanza y del 
+cronómetro son independientes: 
+22
+sist sist sistδk δm δT=+ 2km T⎛⎞ ⎛ ⎞
+⎜⎟ ⎜ ⎟⎝⎠ ⎝ ⎠ 
+Aceptada una estimación de la componente si stemática de la incertidumbre, queda el 
+cómo combinarla con la componente aleatoria. No existe para ello ninguna regla y, por 
+tanto, puede optarse por i ndicarlas separadamente: 
+aleat sist medida de k = k ± δk±δk 
+o también podrían combinarse en la forma: 
+22
+aleat sist δk= (δk) + ( δk)  
+aún cuando no pueda justificarse rigurosamente. 
+La incertidumbre aleatoria aleatδk=σ(k) disminuye al aumentar el número de medidas 
+pero no ocurre lo mismo c on la incertidumbre sistemá tica, que depende de los 
+instrumentos utilizados; por ello, la ince rtidumbre total no puede ser menor que la 
+componente sistemática:  δktotal > δksist. 
+La identificación de la incertidumbre (e rror) de un valor experimental con la 
+desviación estándar sólo es válida en el  caso de que la incertidumbre debida a 
+errores aleatorios sea mayor que la incert idumbre debida a errores sistemáticos, 
+que dependen de los instrume ntos de medida utilizados.  
+ 
+ 
+Bibliografía 
+Gil, S. y Rodríguez, E. “Física re-Cr eativa”. Prentice Hall, Buenos Aires (2001). 
+Goldemberg, J., “Física General y Experiment al” (Vol.1), 2ª ed. Ed. Interamericana, 
+México (1972). 
+Sánchez del Río, C. “Anális is de errores”. Eudema Un iversidad, Madrid (1989). 
+Taylor, J.R. “An Introducti on to Error Analysis”, 2nd ed. University Science Books, 
+Sausalito-California (1997). 
+ 

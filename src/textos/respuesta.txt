@@ -1,0 +1,158 @@
+{
+  "titulo": "La Dictadura de Primo de Rivera (1923 -1930)",
+  "estudiante_nombre": "Carlos Javier Garrido García",
+  "secciones": [
+    {
+      "titulo": "Introducción",
+      "nivel": 2,
+      "contenido": [
+        {
+          "tipo": "texto",
+          "texto": "Cuando **Alfonso XIII** accede a la mayoría de edad en **1902**, España enfrenta una situación marcada por la **crisis de 1898**, la **guerra de Marruecos**, el auge del **movimiento obrero y nacionalismo**, y las consecuencias de la **I Guerra Mundial (1914-1918)** y la **Revolución Rusa (1917)**. Estas crisis provocan la **quiebra del sistema de la Restauración**. Inspirados en Italia, se opta por una **dictadura militar** liderada por el general **Miguel Primo de Rivera**, apoyada por el rey. La dictadura debe enfrentar la **crisis económica internacional de 1929** y su fracaso lleva al fin de la monarquía y la proclamación de la **II República en 1931**."
+        }
+      ]
+    },
+    {
+      "titulo": "Causas de la Implantación de la Dictadura",
+      "nivel": 2,
+      "contenido": [
+        {
+          "tipo": "lista",
+          "elementos": [
+            "**Crisis del sistema político de la Restauración** tras la derrota de 1898 frente a EEUU y fracasos de regeneración.",
+            "Problemas internos y descomposición de los **partidos dinásticos** tras las muertes de **Antonio Cánovas (1897)** y **Práxedes Mateo Sagasta (1903)**.",
+            "Auge de fuerzas ajenas al sistema: **republicanos, nacionalistas, socialistas y anarquistas** manifestados en la crisis de 1917 (Asamblea de Parlamentarios y Huelga General).",
+            "**Deterioro de la figura del Rey Alfonso XIII**, que interviene activamente en política y se convierte en jefe supremo del ejército, erosionando la monarquía.",
+            "Descontento militar por críticas y exceso de mandos, deslizando hacia posiciones conservadoras e intervención política.",
+            "Temor de las clases altas y medias ante la **conflictividad social** impulsada por socialistas y anarquistas, y motivada por la **Revolución Rusa (1917)** y el **Trienio Bolchevique (1917-1920)**: auge del **pistolerismo** en Cataluña (1920-1923).",
+            "**Guerra de Marruecos**: fracaso español ante los rifeños liderados por **Abd el Krim**, acciones guerrilleras y desastre de **Annual (1921)**, con el informe **Expediente Picasso** que culpa a altos mandos y al rey, favoreciendo un golpe de Estado.",
+            "Contexto internacional crítico: crisis de democracias tras I Guerra Mundial, avance del **comunismo** (Rusia) y del **fascismo** (Mussolini en Italia 1922), este último defendiendo estado autoritario, violencia y nacionalismo."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Evolución y Desarrollo de la Dictadura",
+      "nivel": 2,
+      "contenido": [
+        {
+          "tipo": "subseccion",
+          "titulo": "Implantación",
+          "nivel": 3,
+          "contenido": [
+            {
+              "tipo": "texto",
+              "texto": "El general **Miguel Primo de Rivera** da un **golpe de Estado el 13 de septiembre de 1923**, ante la inestabilidad social y política y críticas al Ejército y Monarquía. Primo de Rivera, nacido en **1870 en Jerez de la Frontera**, con experiencia en campañas de Cuba y Marruecos, era capitán general de Cataluña."
+            },
+            {
+              "tipo": "texto",
+              "texto": "**Alfonso XIII**, ausente en San Sebastián, apoya el golpe, se niega a actuar contra los golpistas y pide a Primo de Rivera formar gobierno. Se crea un régimen autoritario con suspensión de la Constitución de 1876 y del Parlamento."
+            },
+            {
+              "tipo": "texto",
+              "texto": "Apoyos iniciales: **'masa neutra'** (personas apolíticas-centro), Ejército, Iglesia, clases altas y el rey. Líderes dinásticos se inhiben, igual que prensa. Burguesía catalana, socialistas y republicanos de **Lerroux** brindan apoyo transitorio."
+            },
+            {
+              "tipo": "texto",
+              "texto": "La dictadura se divide en dos fases: **Directorio Militar** y **Directorio Civil**."
+            }
+          ]
+        },
+        {
+          "titulo": "Directorio Militar (1923 -1925)",
+          "nivel": 3,
+          "contenido": [
+            {
+              "tipo": "texto",
+              "texto": "Gobierno formado exclusivamente por militares (8 generales y 1 contralmirante), con Primo de Rivera acumulando todos los poderes. Régimen autoritario, inspirado en el **fascismo de Mussolini** (visita a Italia en 1923)."
+            },
+            {
+              "tipo": "texto",
+              "texto": "Real Decreto reorganiza la administración pública: se establecen delegados gubernamentales y se disuelven ayuntamientos para poner personas afines al dictador. En 1923 se disuelven las Cortes; en 1924 se disuelven diputaciones provinciales excepto vasco-navarras, medida centralista que afecta a Mancomunidad catalana."
+            },
+            {
+              "tipo": "texto",
+              "texto": "Fuerte represión: ilegalización de la **CNT anarcosindicalista**, radicalización con fundación de la **Federación Anarquista Ibérica (FAI, 1927)**, sanciones contra críticos como **Unamuno** (confinado), **Luis Jiménez de Asúa** y **Fernando de los Ríos**."
+            },
+            {
+              "tipo": "texto",
+              "texto": "PSOE y UGT apoyan parcialmente con la inclusión de **Largo Caballero** en el Consejo de Estado."
+            },
+            {
+              "tipo": "texto",
+              "texto": "En 1924 se crea la **Unión Patriótica**, partido único a favor de la dictadura, intentando institucionalizar el régimen. Parte de los partidos dinásticos se alejan y la Dictadura pierde apoyos."
+            },
+            {
+              "tipo": "texto",
+              "texto": "Fin de la Guerra de Marruecos con el desembarco de **Alhucemas (1925)**, acción franco-española que acaba con la resistencia rifeña de **Abd el Krim**."
+            }
+          ]
+        },
+        {
+          "titulo": "Directorio Civil (1925 -1930)",
+          "nivel": 3,
+          "contenido": [
+            {
+              "tipo": "texto",
+              "texto": "Tras el fin de la Guerra de Marruecos, se exige la disolución de la dictadura, pero Primo de Rivera la perpetúa y sustituye el Directorio Militar por un **Directorio Civil (diciembre 1925)**, compuesto por técnicos de la **Unión Patriótica** y algunos militares. Destaca **José Calvo Sotelo** como ministro de Hacienda."
+            },
+            {
+              "tipo": "texto",
+              "texto": "En 1926 se convoca una **Asamblea Nacional** para consolidar el régimen y derogar la Constitución suspendida y disolver el Parlamento. Diputados designados por el dictador, Asamblea consultiva desde 1927. Anteproyecto de Constitución presentado en 1929, que es mal recibido, por lo que se intenta ampliar la Asamblea."
+            },
+            {
+              "tipo": "texto",
+              "texto": "Política económica intervencionista: creación de **Comités Paritarios** (representación patronos y obreros) siguiendo el principio fascista de colaboración de clases; proteccionismo, ayudas fiscales y crédito, creación de empresas públicas como **CAMPSA**, y obras públicas."
+            },
+            {
+              "tipo": "texto",
+              "texto": "Beneficios económicos durante los '**Felices años 20**', pero aumento de la **deuda pública**, acrecentada con la **Exposición Universal de Barcelona** y la **Iberoamericana de Sevilla, 1929**."
+            },
+            {
+              "tipo": "texto",
+              "texto": "Aumenta la oposición con la creación de **Alianza Republicana (1926)**, dirigida por **Alejandro Lerroux** con la colaboración de **Manuel Azaña**. Intentos fallidos de golpe de Estado militar (generales **Weyler y Aguilera en 1926**, **Sánchez Guerra en Valencia 1929**, sublevación en Artillería, ciudad de **Goded**). Protestas estudiantiles e insurrecciones obreras (Alcoy). Dimisión de Calvo Sotelo."
+            }
+          ]
+        },
+        {
+          "titulo": "Caída",
+          "nivel": 3,
+          "contenido": [
+            {
+              "tipo": "texto",
+              "texto": "Causas principales: **Crisis económica internacional de 1929**, aumento de oposición, **inestabilidad social** y pérdida de apoyos importantes:"
+            },
+            {
+              "tipo": "lista",
+              "elementos": [
+                "Catalanistas por supresión de la **Mancomunidad**.",
+                "Militares por supresión del **Arma de Artillería**.",
+                "Socialistas por aumento del **paro**.",
+                "Pérdida de respaldo de **Alfonso XIII** debido al cambio en la opinión pública."
+              ]
+            },
+            {
+              "tipo": "texto",
+              "texto": "Primo de Rivera dimite el **30 de enero de 1930** y se exilia en París, donde muere en **1931**. El rey encarga formar gobierno al general **Dámaso Berenguer**."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Conclusiones",
+      "nivel": 2,
+      "contenido": [
+        {
+          "tipo": "lista",
+          "elementos": [
+            "La dictadura de Primo de Rivera se enmarca dentro de las '**dictaduras mediterráneas**', inspiradas en el **fascismo italiano**.",
+            "Nuevas tendencias autoritarias apoyadas por la **burguesía** ante el temor a una revolución comunista en Europa entre guerras.",
+            "El fracaso de la dictadura provoca que **Alfonso XIII** intente (1930-1931) restaurar el sistema político de la Restauración mediante gobiernos del **General Berenguer** y el **Almirante Aznar**, pero fracasan por desestructuración de partidos y crecimiento de fuerzas ajenas al sistema que acusan al rey de su apoyo a la dictadura.",
+            "Este fracaso lleva a la proclamación de la **II República el 14 de abril de 1931**, régimen democrático con reformas que amenazan la hegemonía de las clases altas, lo que impulsa a un nuevo golpe de Estado militar y origen de la **Guerra Civil (1936-1939)**."
+          ]
+        }
+      ]
+    }
+  ]
+}

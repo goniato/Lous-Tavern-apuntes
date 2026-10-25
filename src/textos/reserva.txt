@@ -1,0 +1,23 @@
+
+1. Estructura básica: 
+- `titulo`: Título principal del temario 
+- `estudiante_nombre`: Nombre del estudiante.
+- `secciones`: Array de objetos con la estructura de secciones.
+2. Estructura de secciones: 
+Cada sección debe tener:  
+- `titulo`: Título de la sección  
+- `nivel`: Número del 2 al 6  
+- `contenido`: Array que puede contener: 
+    * Objetos de tipo 'texto' con:
+        - `texto`: Contenido textual que puede incluir ecuaciones LaTeX entre $$ (ej: $$E=mc^2$$).  
+    * Objetos de tipo 'codigo' con: 
+        - `codigo`: Fragmento de código (codigo de programacion, en ambito de desarrollo de software)
+        - `descripcion`: Explicación breve del codigo (opcional)   
+    * Objetos de tipo `columnas` con un array en su interior, que contiene dos o tres objetos de tipo texto(dos o tres columnas)(solamente puede contener objetos de tipo texto) los cuales incluyen un `titulo` de columna (opcional).  
+    * Objetos de tipo 'subseccion' para anidamiento de secciones, nivel maximo 6. 
+
+
+
+
+
+{\"titulo\": \"titulo del temario tratado\",\"estudiante_nombre\": \"nombre del estudiante\",\"secciones\": [{\"titulo\": \"Sección con 2 columnas\",\"nivel\": 2, \"contenido\": [{\"tipo\": \"columnas\", \"columnas\": [ [{\"tipo\": \"texto\",\"titulo\": \"Titulo de la columna 1 (opcional y recomendable)\", \"texto\": \"Contenido columna 1\"}], [{\"tipo\": \"texto\", \"texto\": \"Contenido columna 2\"}]]}]},{\"titulo\": \"Sección con 3 columnas\",\"nivel\": 2,\"contenido\": [{\"tipo\": \"columnas\",\"columnas\": [[{\"tipo\": \"texto\",\"titulo\": \"Titulo de la columna 1 (opcional y recomendable)\", \"texto\": \"contenido Columna 1\"}],[{\"tipo\": \"texto\", \"texto\": \"contenido columna 2\"}],[{\"tipo\": \"texto\",\"titulo\": \"Titulo de la columna 3 (opcional y recomendable)\", \"texto\": \"Columna 3\"}]]}]},{\"titulo\": \"titulo de la seccion\",\"nivel\": 2,\"contenido\": [{\"tipo\": \"texto\",\"texto\": \"informacion seccion. Ejemplo de ecuacion: $$ E = mc^2 $$ \"},{\"tipo\": \"subseccion\",\"titulo\": \"titulo de subseccion\",\"nivel\": 3,\"contenido\": [{\"tipo\": \"texto\",\"texto\": \"informacion subseccion\"},{\"tipo\": \"codigo\",\"codigo\": \"codigo en el lenguaje que se explique\",\"descripcion\": \"descripcion del codigo, si fuese necesaria\"}]}]},{\"titulo\": \"titulo de la seccion\",\"nivel\": 2,\"contenido\": [{\"tipo\": \"texto\",\"texto\": \"texto de la seccion\"},{\"tipo\": \"texto\",\"texto\": \"informacion de la seccion \"},{\"tipo\": \"subseccion\",\"titulo\": \"titulo de subseccion\",\"nivel\": 3,\"contenido\": [ {\"tipo\": \"codigo\",\"codigo\": \"codigo escrito en lenguaje requerido\",\"descripcion\": \"descripcion del codigo si fuese necesaria\"}]}]}]}

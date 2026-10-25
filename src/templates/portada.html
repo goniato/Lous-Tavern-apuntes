@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> {{ titulo }} </title>
+    <style> 
+    {{ css_content }} 
+    </style>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+{% block header %}
+    <h1 class="titulo-principal">{{ titulo }}</h1>
+{% endblock %}
+
+{% block content %}
+<div class="portada">
+    <img src="file:///{{ logo_path }}" class="img-content">
+
+    <div class="info-estudiante">
+        <h4>Apuntes generados por LOU'S TAVERN PROYECT </h2>
+        <h4>Apuntes generados para: {{ estudiante }}</h2>
+        <div class="fecha">{{ fecha_creacion }}</div>
+    </div>
+</div>
+{% endblock %}
+
+
+
+</body>
+</html>

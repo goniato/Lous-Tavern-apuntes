@@ -1,0 +1,70 @@
+
+{% block content %}
+<section class="seccion">
+    {% if seccion.nivel == 2 %}
+        <h2>{{ seccion.titulo }}</h2>
+    {% elif seccion.nivel == 3 %}
+        <h3>{{ seccion.titulo }}</h3>
+    {% elif seccion.nivel == 4 %}
+        <h4>{{ seccion.titulo }}</h4>
+    {% elif seccion.nivel == 5 %}
+        <h5>{{ seccion.titulo }}</h5>
+    {% elif seccion.nivel == 6 %}
+        <h6>{{ seccion.titulo }}</h6>
+    {% endif %}
+    
+    <div class="contenido">
+        {% for item in seccion.contenido %}
+            {% if item.tipo == 'texto' %}
+                <p>{{ item.texto }}</p>
+            {% elif item.tipo == 'imagen' %}
+                <img src="file:///{{ item.ruta }}" class="img-content">
+                {% if item.pie %}
+                    <p class="pie-imagen">{{ item.pie }}</p>
+                {% endif %}
+            {% elif item.tipo == 'codigo' %}
+                <pre class="codigo">{{ item.codigo }}</pre>
+                {% if item.descripcion %}
+                    <p class="descripcion-codigo">{{ item.descripcion }}</p>
+                {% endif %}
+            {% elif item.tipo == 'lista' %}
+                <ul class="lista">
+                    {% for elemento in item.elementos %}
+                        <li>{{ elemento }}</li>
+                    {% endfor %}
+                </ul>
+            
+            {% elif item.tipo == 'columnas' %}
+                <div class="contenedor-columnas">
+                    <div class="fila-columnas">
+                        {% for columna in item.columnas %}
+                            <div class="columna columna-{{ item.columnas|length }}">
+                                {% for elemento in columna %}
+                                    {% if elemento.titulo %}
+                                        {% if seccion.nivel == 2 %}
+                                            <h3>{{ elemento.titulo }}</h3>
+                                        {% elif seccion.nivel == 3 %}
+                                            <h4>{{ elemento.titulo }}</h4>
+                                        {% elif seccion.nivel == 4 %}
+                                            <h5>{{ elemento.titulo }}</h5>
+                                        {% elif seccion.nivel == 5 %}
+                                            <h6>{{ elemento.titulo }}</h6>
+                                        {% endif %}
+                                    {% endif %}
+                                    {% if elemento.tipo == 'texto' %}
+                                        <div>{{ elemento.texto }}</div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% elif item.tipo == 'subseccion' %}
+                {% with seccion=item %}
+                    {% include "seccion.html" %}
+                {% endwith %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
