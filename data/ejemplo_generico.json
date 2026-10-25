@@ -1,0 +1,94 @@
+{
+    "titulo": "Titulo del temario tratado",
+    "estudiante_nombre": "Nombre del estudiante",
+    "secciones": [
+        {
+            "titulo": "Sección de ejemplo",
+            "nivel": 2,
+            "contenido": [
+                {
+                    "tipo": "texto",
+                    "texto": "Texto introductorio de la sección principal."
+                },
+                {
+                    "tipo": "subseccion",
+                    "titulo": "Subsección de primer nivel",
+                    "nivel": 3,
+                    "contenido": [
+                        {
+                            "tipo": "texto",
+                            "texto": "Texto dentro de la subsección nivel 3."
+                        },
+                        {
+                            "tipo": "subseccion",
+                            "titulo": "Subsección anidada de segundo nivel",
+                            "nivel": 4,
+                            "contenido": [
+                                {
+                                    "tipo": "texto",
+                                    "texto": "Texto dentro de la subsección nivel 4."
+                                },
+                                {
+                                    "tipo": "codigo",
+                                    "codigo": "print('Hola mundo')",
+                                    "descripcion": "Descripcion del código."
+                                },
+                                {
+                                    "tipo": "lista",
+                                    "elementos": [
+                                        "Elemento 1 de la lista en nivel 4",
+                                        "Elemento 2 de la lista en nivel 4",
+                                        "Elemento 3 de la lista en nivel 4"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Otra sección con columnas",
+            "nivel": 2,
+            "contenido": [
+                {
+                    "tipo": "columnas",
+                    "columnas": [
+                        [
+                            {
+                                "tipo": "texto",
+                                "titulo": "Columna 1",
+                                "texto": "Texto de la columna 1."
+                            }
+                        ],
+                        [
+                            {
+                                "tipo": "texto",
+                                "titulo": "Columna 2",
+                                "texto": "Texto de la columna 2."
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Sección final con lista",
+            "nivel": 2,
+            "contenido": [
+                {
+                    "tipo": "texto",
+                    "texto": "Introducción a la lista:"
+                },
+                {
+                    "tipo": "lista",
+                    "elementos": [
+                        "Primer concepto",
+                        "Segundo concepto",
+                        "Tercer concepto importante"
+                    ]
+                }
+            ]
+        }
+    ]
+}

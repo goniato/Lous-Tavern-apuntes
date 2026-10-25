@@ -1,0 +1,86 @@
+{
+    "titulo": "Álgebra Lineal",
+    "estudiante_nombre": "Juan Pérez",
+    "fecha_creacion": "20 de Noviembre de 2023",
+    "secciones": [
+        {
+            "titulo": "Vectores",
+            "nivel": 2,
+            "contenido": [
+                {
+                    "tipo": "texto",
+                    "texto": "Un vector es un elemento de un espacio vectorial. En álgebra lineal, los vectores pueden representarse como matrices de una sola columna."
+                },
+                {
+                    "tipo": "columnas",
+                    "columnas": [
+                        [
+                            {
+                                "tipo": "texto",
+                                "texto": "**Suma de vectores**:\n\nDados dos vectores en ℝ²:\n\n$$\\vec{a} = \\begin{pmatrix} a_x \\\\ a_y \\end{pmatrix}, \\vec{b} = \\begin{pmatrix} b_x \\\\ b_y \\end{pmatrix}$$\n\nSu suma es:\n\n$$\\vec{a} + \\vec{b} = \\begin{pmatrix} a_x + b_x \\\\ a_y + b_y \\end{pmatrix}$$\n\nPropiedad conmutativa:\n$$\\vec{a} + \\vec{b} = \\vec{b} + \\vec{a}$$"
+                            }
+                        ],
+                        [
+                            {
+                                "tipo": "texto",
+                                "texto": "**Producto escalar**:\n\nDefinición para vectores en ℝ²:\n\n$$\\vec{a} \\cdot \\vec{b} = a_x b_x + a_y b_y$$\n\nPropiedades clave:\n\n1. Conmutatividad:\n$$\\vec{a} \\cdot \\vec{b} = \\vec{b} \\cdot \\vec{a}$$\n\n2. Distributividad:\n$$\\vec{a} \\cdot (\\vec{b} + \\vec{c}) = \\vec{a} \\cdot \\vec{b} + \\vec{a} \\cdot \\vec{c}$$"
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Propiedades de los Vectores",
+            "nivel": 2,
+            "contenido": [
+                {
+                    "tipo": "texto",
+                    "texto": "Algunas propiedades importantes de los vectores son:"
+                },
+                {
+                    "tipo": "lista",
+                    "elementos": [
+                        "Tienen magnitud y dirección.",
+                        "Se pueden sumar gráficamente mediante el método del paralelogramo.",
+                        "El producto escalar da como resultado un escalar.",
+                        "El producto vectorial solo se define en ℝ³."
+                    ]
+                }
+            ]
+        },        
+        {
+            "titulo": "Matrices",
+            "nivel": 2,
+            "contenido": [
+                {
+                    "tipo": "texto",
+                    "texto": "Una matriz es una disposición rectangular de números, símbolos o expresiones en filas y columnas."
+                },
+                {
+                    "tipo": "columnas",
+                    "columnas": [
+                        [
+                            {
+                                "tipo": "texto",
+                                "texto": "**Matriz identidad**:\n\nLa matriz identidad de orden 2:\n\n$$I = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$$\n\nPropiedad fundamental:\n\nPara cualquier matriz A cuadrada:\n\n$$A \\cdot I = I \\cdot A = A$$"
+                            }
+                        ],
+                        [
+                            {
+                                "tipo": "texto",
+                                "texto": "**Matriz transpuesta**:\n\nDada una matriz:\n\n$$A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$$\n\nSu transpuesta es:\n\n$$A^T = \\begin{pmatrix} a & c \\\\ b & d \\end{pmatrix}$$\n\nPropiedades:\n\n1. $(A^T)^T = A$\n2. $(A + B)^T = A^T + B^T$"
+                            }
+                        ],
+                        [
+                            {
+                                "tipo": "texto",
+                                "texto": "**Matriz simétrica**:\n\nUna matriz es simétrica si:\n\n$$A = A^T$$\n\nEjemplo:\n\n$$S = \\begin{pmatrix} 1 & 3 \\\\ 3 & 2 \\end{pmatrix}$$\n\nToda matriz diagonal es simétrica."
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}
