@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>  </title>
+    <style>
+    /* Fuentes mejoradas */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Lora:wght@400;700&family=JetBrains+Mono&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'EB Garamond', serif; 
+    line-height: 1.25;
+    font-size: 1.2em;
+    color: #131313;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.negrita {
+    font-weight: bold;
+  }
+/* Contenedor principal */
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+    color: #272727;
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 2.4em;
+    border-bottom: 2px solid #0e1a5d;
+    font-weight: 600;
+    color: #0e1a5d;
+    padding-bottom: 10px;
+    text-align: center;
+}
+h2 {
+    font-size: 1.3em;
+    color: #0e1a5d;
+    font-weight: 600;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+    text-align: center;
+}
+h3 {
+    font-size: 1.1em;
+}
+h4 {
+    font-size: 1em;
+}
+h5 {
+    font-size: 0.9em;
+}
+h6 {
+    font-size: 0.8em;
+}
+
+/* Párrafos y texto */
+p {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    text-align: justify;
+    hyphens: auto;
+}
+
+/* Portada */
+.portada {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.logo-portada {
+    max-width: 150px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.info-estudiante {
+    margin-top: 40px;
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+.fecha {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+/* Código */
+.codigo {
+    background: #c7c7c7;
+    border-left: 4px solid #475057;
+    padding: 15px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7em;
+    line-height: 1.5;
+    border-radius: 0 4px 4px 0;
+    margin: 20px 0;
+    overflow-x: auto;
+    page-break-inside: avoid;
+}
+/* Descripción de código (para bloques <pre class="codigo">) */
+.descripcion-codigo {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7em;
+    color: #555;
+    margin-top: -15px;       /* Reduce espacio superior para unir visualmente con el bloque de código */
+    margin-bottom: 20px;     /* Espacio inferior estándar */
+    padding: 8px 15px;
+    background-color: #f8f8f8;
+    border-left: 3px solid #d0d0d0;
+    border-radius: 0 0 4px 4px;
+    text-align: left;
+    hyphens: auto;
+}
+
+/* Imágenes */
+
+.img-content {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transform: scale(0.6); /* Escala la imagen */
+    transform-origin: center;
+}
+
+/*  LISTAS */
+.lista {
+    padding-left: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.lista li {
+    list-style-type: disc;
+    margin-bottom: 0.3em;
+    text-align: justify;
+}
+
+
+
+
+
+/* Contenedor principal centrado 
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sistema de columnas dinámico */
+.contenedor-columnas {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    margin: 25px 0;
+    border-collapse: collapse;
+    /*border-spacing: 10px; /* Espacio entre columnas */
+}
+
+.fila-columnas {
+    display: table-row;
+}
+
+
+.columna {
+    display: table-cell;
+    vertical-align: top;
+    padding: 2%;
+    text-align: left;
+    position: relative;
+    box-sizing: border-box
+}
+.columna + .columna {
+    border-left: 1px solid #e2e2e2; /* Línea izquierda para todas las columnas excepto la primera */
+}
+.columna-2 {
+    width: 46%;
+}
+.columna-3 {
+    width: 29.33%;
+}
+/* Ajustes de márgenes */
+.columna:first-child {
+    padding-left: 0;
+    padding-right: 4%;
+}
+
+.columna:last-child {
+    padding-right: 0;
+    padding-left: 4%;
+}
+
+/* imagenes o algo asi
+.columna-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+*/
+/*
+:root {
+    --factor-tamano-formulas: 0.4; /* Controla aquí el tamaño (0.1 a 1) 
+}
+*/
+/*Formulas*/
+.img-formula {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    transform: scale(0.8); /* Escala la imagen */
+    transform-origin: center; /* Punto de origen de la transformación */
+    image-rendering: -webkit-optimize-contrast; /* Mejor calidad al escalar
+    image-rendering: crisp-edges;*/
+}
+
+/*
+.img-formula {
+    display: inline;
+    height: 0.8em;  /* Tamaño fijo 
+    width: auto;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}*/
+
+/*
+.img-formula {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;  /* Altura automática según contenido 
+    max-height: 1.2em; /* Límite máximo de altura 
+    width: auto; /* Anchura proporcional a la altura
+    margin: 0 0.15em;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05));
+}
+*/
+/*
+p .img-formula {
+    --factor-tamano-formulas: 0.5;
+}
+  
+  /* Fórmulas más grandes en títulos */
+  /*
+h2 .img-formula {
+    --factor-tamano-formulas: 0.9;
+}
+  
+/* Fórmulas en columnas */
+/*
+.columna .img-formula {
+    --factor-tamano-formulas: 0.8;
+}
+/*Formulas
+.img-formula {
+    display: block;
+    margin: 0.8rem auto;
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
+}
+*/
+
+.pie-imagen {
+    font-size: 0.85em;
+    text-align: center;
+    color: #7f8c8d;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+/* Secciones */
+/*.seccion {
+    margin-bottom: 40px;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+*/
+
+
+/* Footer */
+/*footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    color: #7f8c8d;
+    font-size: 0.9em;
+    border-top: 1px solid #eee;
+}*/
+
+ 
+    </style>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <div class="content">
+        
+
+<section class="seccion">
+    
+        <h2>Introducción</h2>
+    
+    
+    <div class="contenido">
+        
+            
+                <p>Cuando <span class="negrita">Alfonso XIII</span> accede a la mayoría de edad en <span class="negrita">1902</span>, España enfrenta una situación marcada por la <span class="negrita">crisis de 1898</span>, la <span class="negrita">guerra de Marruecos</span>, el auge del <span class="negrita">movimiento obrero y nacionalismo</span>, y las consecuencias de la <span class="negrita">I Guerra Mundial (1914-1918)</span> y la <span class="negrita">Revolución Rusa (1917)</span>. Estas crisis provocan la <span class="negrita">quiebra del sistema de la Restauración</span>. Inspirados en Italia, se opta por una <span class="negrita">dictadura militar</span> liderada por el general <span class="negrita">Miguel Primo de Rivera</span>, apoyada por el rey. La dictadura debe enfrentar la <span class="negrita">crisis económica internacional de 1929</span> y su fracaso lleva al fin de la monarquía y la proclamación de la <span class="negrita">II República en 1931</span>.</p>
+            
+        
+    </div>
+</section>
+
+
+
+<section class="seccion">
+    
+        <h2>Causas de la Implantación de la Dictadura</h2>
+    
+    
+    <div class="contenido">
+        
+            
+                <ul class="lista">
+                    
+                        <li><span class="negrita">Crisis del sistema político de la Restauración</span> tras la derrota de 1898 frente a EEUU y fracasos de regeneración.</li>
+                    
+                        <li>Problemas internos y descomposición de los <span class="negrita">partidos dinásticos</span> tras las muertes de <span class="negrita">Antonio Cánovas (1897)</span> y <span class="negrita">Práxedes Mateo Sagasta (1903)</span>.</li>
+                    
+                        <li>Auge de fuerzas ajenas al sistema: <span class="negrita">republicanos, nacionalistas, socialistas y anarquistas</span> manifestados en la crisis de 1917 (Asamblea de Parlamentarios y Huelga General).</li>
+                    
+                        <li><span class="negrita">Deterioro de la figura del Rey Alfonso XIII</span>, que interviene activamente en política y se convierte en jefe supremo del ejército, erosionando la monarquía.</li>
+                    
+                        <li>Descontento militar por críticas y exceso de mandos, deslizando hacia posiciones conservadoras e intervención política.</li>
+                    
+                        <li>Temor de las clases altas y medias ante la <span class="negrita">conflictividad social</span> impulsada por socialistas y anarquistas, y motivada por la <span class="negrita">Revolución Rusa (1917)</span> y el <span class="negrita">Trienio Bolchevique (1917-1920)</span>: auge del <span class="negrita">pistolerismo</span> en Cataluña (1920-1923).</li>
+                    
+                        <li><span class="negrita">Guerra de Marruecos</span>: fracaso español ante los rifeños liderados por <span class="negrita">Abd el Krim</span>, acciones guerrilleras y desastre de <span class="negrita">Annual (1921)</span>, con el informe <span class="negrita">Expediente Picasso</span> que culpa a altos mandos y al rey, favoreciendo un golpe de Estado.</li>
+                    
+                        <li>Contexto internacional crítico: crisis de democracias tras I Guerra Mundial, avance del <span class="negrita">comunismo</span> (Rusia) y del <span class="negrita">fascismo</span> (Mussolini en Italia 1922), este último defendiendo estado autoritario, violencia y nacionalismo.</li>
+                    
+                </ul>
+            
+            
+        
+    </div>
+</section>
+
+
+
+<section class="seccion">
+    
+        <h2>Evolución y Desarrollo de la Dictadura</h2>
+    
+    
+    <div class="contenido">
+        
+            
+                
+                    
+
+<section class="seccion">
+    
+        <h3>Implantación</h3>
+    
+    
+    <div class="contenido">
+        
+            
+                <p>El general <span class="negrita">Miguel Primo de Rivera</span> da un <span class="negrita">golpe de Estado el 13 de septiembre de 1923</span>, ante la inestabilidad social y política y críticas al Ejército y Monarquía. Primo de Rivera, nacido en <span class="negrita">1870 en Jerez de la Frontera</span>, con experiencia en campañas de Cuba y Marruecos, era capitán general de Cataluña.</p>
+            
+        
+            
+                <p><span class="negrita">Alfonso XIII</span>, ausente en San Sebastián, apoya el golpe, se niega a actuar contra los golpistas y pide a Primo de Rivera formar gobierno. Se crea un régimen autoritario con suspensión de la Constitución de 1876 y del Parlamento.</p>
+            
+        
+            
+                <p>Apoyos iniciales: <span class="negrita">'masa neutra'</span> (personas apolíticas-centro), Ejército, Iglesia, clases altas y el rey. Líderes dinásticos se inhiben, igual que prensa. Burguesía catalana, socialistas y republicanos de <span class="negrita">Lerroux</span> brindan apoyo transitorio.</p>
+            
+        
+            
+                <p>La dictadura se divide en dos fases: <span class="negrita">Directorio Militar</span> y <span class="negrita">Directorio Civil</span>.</p>
+            
+        
+    </div>
+</section>
+
+                
+            
+        
+            
+                
+                    
+
+<section class="seccion">
+    
+        <h3>Directorio Militar (1923 -1925)</h3>
+    
+    
+    <div class="contenido">
+        
+            
+                <p>Gobierno formado exclusivamente por militares (8 generales y 1 contralmirante), con Primo de Rivera acumulando todos los poderes. Régimen autoritario, inspirado en el <span class="negrita">fascismo de Mussolini</span> (visita a Italia en 1923).</p>
+            
+        
+            
+                <p>Real Decreto reorganiza la administración pública: se establecen delegados gubernamentales y se disuelven ayuntamientos para poner personas afines al dictador. En 1923 se disuelven las Cortes; en 1924 se disuelven diputaciones provinciales excepto vasco-navarras, medida centralista que afecta a Mancomunidad catalana.</p>
+            
+        
+            
+                <p>Fuerte represión: ilegalización de la <span class="negrita">CNT anarcosindicalista</span>, radicalización con fundación de la <span class="negrita">Federación Anarquista Ibérica (FAI, 1927)</span>, sanciones contra críticos como <span class="negrita">Unamuno</span> (confinado), <span class="negrita">Luis Jiménez de Asúa</span> y <span class="negrita">Fernando de los Ríos</span>.</p>
+            
+        
+            
+                <p>PSOE y UGT apoyan parcialmente con la inclusión de <span class="negrita">Largo Caballero</span> en el Consejo de Estado.</p>
+            
+        
+            
+                <p>En 1924 se crea la <span class="negrita">Unión Patriótica</span>, partido único a favor de la dictadura, intentando institucionalizar el régimen. Parte de los partidos dinásticos se alejan y la Dictadura pierde apoyos.</p>
+            
+        
+            
+                <p>Fin de la Guerra de Marruecos con el desembarco de <span class="negrita">Alhucemas (1925)</span>, acción franco-española que acaba con la resistencia rifeña de <span class="negrita">Abd el Krim</span>.</p>
+            
+        
+    </div>
+</section>
+
+                
+            
+        
+            
+                
+                    
+
+<section class="seccion">
+    
+        <h3>Directorio Civil (1925 -1930)</h3>
+    
+    
+    <div class="contenido">
+        
+            
+                <p>Tras el fin de la Guerra de Marruecos, se exige la disolución de la dictadura, pero Primo de Rivera la perpetúa y sustituye el Directorio Militar por un <span class="negrita">Directorio Civil (diciembre 1925)</span>, compuesto por técnicos de la <span class="negrita">Unión Patriótica</span> y algunos militares. Destaca <span class="negrita">José Calvo Sotelo</span> como ministro de Hacienda.</p>
+            
+        
+            
+                <p>En 1926 se convoca una <span class="negrita">Asamblea Nacional</span> para consolidar el régimen y derogar la Constitución suspendida y disolver el Parlamento. Diputados designados por el dictador, Asamblea consultiva desde 1927. Anteproyecto de Constitución presentado en 1929, que es mal recibido, por lo que se intenta ampliar la Asamblea.</p>
+            
+        
+            
+                <p>Política económica intervencionista: creación de <span class="negrita">Comités Paritarios</span> (representación patronos y obreros) siguiendo el principio fascista de colaboración de clases; proteccionismo, ayudas fiscales y crédito, creación de empresas públicas como <span class="negrita">CAMPSA</span>, y obras públicas.</p>
+            
+        
+            
+                <p>Beneficios económicos durante los '<span class="negrita">Felices años 20</span>', pero aumento de la <span class="negrita">deuda pública</span>, acrecentada con la <span class="negrita">Exposición Universal de Barcelona</span> y la <span class="negrita">Iberoamericana de Sevilla, 1929</span>.</p>
+            
+        
+            
+                <p>Aumenta la oposición con la creación de <span class="negrita">Alianza Republicana (1926)</span>, dirigida por <span class="negrita">Alejandro Lerroux</span> con la colaboración de <span class="negrita">Manuel Azaña</span>. Intentos fallidos de golpe de Estado militar (generales <span class="negrita">Weyler y Aguilera en 1926</span>, <span class="negrita">Sánchez Guerra en Valencia 1929</span>, sublevación en Artillería, ciudad de <span class="negrita">Goded</span>). Protestas estudiantiles e insurrecciones obreras (Alcoy). Dimisión de Calvo Sotelo.</p>
+            
+        
+    </div>
+</section>
+
+                
+            
+        
+            
+                
+                    
+
+<section class="seccion">
+    
+        <h3>Caída</h3>
+    
+    
+    <div class="contenido">
+        
+            
+                <p>Causas principales: <span class="negrita">Crisis económica internacional de 1929</span>, aumento de oposición, <span class="negrita">inestabilidad social</span> y pérdida de apoyos importantes:</p>
+            
+        
+            
+                <ul class="lista">
+                    
+                        <li>Catalanistas por supresión de la <span class="negrita">Mancomunidad</span>.</li>
+                    
+                        <li>Militares por supresión del <span class="negrita">Arma de Artillería</span>.</li>
+                    
+                        <li>Socialistas por aumento del <span class="negrita">paro</span>.</li>
+                    
+                        <li>Pérdida de respaldo de <span class="negrita">Alfonso XIII</span> debido al cambio en la opinión pública.</li>
+                    
+                </ul>
+            
+            
+        
+            
+                <p>Primo de Rivera dimite el <span class="negrita">30 de enero de 1930</span> y se exilia en París, donde muere en <span class="negrita">1931</span>. El rey encarga formar gobierno al general <span class="negrita">Dámaso Berenguer</span>.</p>
+            
+        
+    </div>
+</section>
+
+                
+            
+        
+    </div>
+</section>
+
+
+
+<section class="seccion">
+    
+        <h2>Conclusiones</h2>
+    
+    
+    <div class="contenido">
+        
+            
+                <ul class="lista">
+                    
+                        <li>La dictadura de Primo de Rivera se enmarca dentro de las '<span class="negrita">dictaduras mediterráneas</span>', inspiradas en el <span class="negrita">fascismo italiano</span>.</li>
+                    
+                        <li>Nuevas tendencias autoritarias apoyadas por la <span class="negrita">burguesía</span> ante el temor a una revolución comunista en Europa entre guerras.</li>
+                    
+                        <li>El fracaso de la dictadura provoca que <span class="negrita">Alfonso XIII</span> intente (1930-1931) restaurar el sistema político de la Restauración mediante gobiernos del <span class="negrita">General Berenguer</span> y el <span class="negrita">Almirante Aznar</span>, pero fracasan por desestructuración de partidos y crecimiento de fuerzas ajenas al sistema que acusan al rey de su apoyo a la dictadura.</li>
+                    
+                        <li>Este fracaso lleva a la proclamación de la <span class="negrita">II República el 14 de abril de 1931</span>, régimen democrático con reformas que amenazan la hegemonía de las clases altas, lo que impulsa a un nuevo golpe de Estado militar y origen de la <span class="negrita">Guerra Civil (1936-1939)</span>.</li>
+                    
+                </ul>
+            
+            
+        
+    </div>
+</section>
+
+    </div>
+    
+</body>
+</html>
